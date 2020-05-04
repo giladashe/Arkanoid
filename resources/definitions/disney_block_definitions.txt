@@ -1,0 +1,13 @@
+# default values for blocks
+default height:40 width:73 stroke:color(black) hit_points:2
+
+# block definitions
+bdef symbol:a fill:image(block_images/disney/aladdin.png) fill-2:image(block_images/disney/monsters_inc.png)
+bdef symbol:c fill:image(block_images/disney/Elsa_frozen.png) fill-2:image(block_images/disney/olaf.jpeg)
+bdef symbol:j fill:image(block_images/disney/mickey_mouse.png) fill-2:image(block_images/disney/toy_story.png)
+bdef symbol:k fill:image(block_images/disney/stitch.png) fill-2:image(block_images/disney/Moana.png)
+bdef symbol:l fill:image(block_images/disney/lion_king.png) fill-2:image(block_images/disney/timon_pumba.png)
+
+# spacers definitions
+sdef symbol:- width:25
+sdef symbol:* width:20

@@ -1,0 +1,71 @@
+# Level 1
+# How I Met Your Mother
+
+START_LEVEL
+level_name: legen.....dary
+ball_velocities:45,7 -10,7
+background:image(background_images/how_i_met.jpeg)
+paddle_speed:20
+paddle_width:200
+block_definitions:definitions/how_i_met_definitions.txt
+blocks_start_x:25
+blocks_start_y:43
+row_height:70
+num_blocks:18
+START_BLOCKS
+aaaaaa
+bbbbbb
+cccccc
+
+
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Disney
+
+START_LEVEL
+level_name: Disney
+ball_velocities:10,4 -10,4
+background:image(background_images/disney1.png)
+paddle_speed:10
+paddle_width:250
+block_definitions:definitions/disney_block_definitions.txt
+blocks_start_x:0
+blocks_start_y:80
+row_height:40
+num_blocks:50
+START_BLOCKS
+-
+-aaaaa*aaaaa--
+-jjjjj*jjjjj--
+-ccccc*ccccc--
+------------
+-kkkkk*kkkkk--
+-lllll*lllll--
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# isis
+
+START_LEVEL
+level_name: ISIS ALLA WAKBAR
+ball_velocities:0,6 45,6 315,6
+background:image(background_images/isis_flag.png)
+paddle_speed:10
+paddle_width:160
+block_definitions:definitions/isis_block_definitions.txt
+blocks_start_x:0
+blocks_start_y:43
+row_height:70
+num_blocks:12
+START_BLOCKS
+#aaaaaa
+$$$$$$$
+#bbbbbb
+
+
+END_BLOCKS
+END_LEVEL

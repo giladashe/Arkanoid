@@ -1,0 +1,10 @@
+# default values for blocks
+default height:70 width:125 stroke:color(black) hit_points:2
+
+# block definitions
+bdef symbol:a fill:image(block_images/isis/explosion.jpg) fill-2:image(block_images/isis/prisoners.jpg)
+bdef symbol:b fill:image(block_images/isis/explosion.jpg) fill-2:image(block_images/isis/bomb.jpg)
+
+# spacers definitions
+sdef symbol:# width:25
+sdef symbol:$ width:20

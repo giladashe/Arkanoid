@@ -1,0 +1,11 @@
+# default values for blocks
+default height:70 width:125 stroke:color(white) hit_points:2
+
+# block definitions
+bdef symbol:a fill:image(block_images/How_I_Met/barney.png) fill-2:image(block_images/How_I_Met/lily.png)
+bdef symbol:b fill:image(block_images/How_I_Met/marshall.jpg) fill-2:image(block_images/How_I_Met/robin.jpg)
+bdef symbol:c fill:image(block_images/How_I_Met/ted.jpg) fill-2:image(block_images/How_I_Met/barney_funny.jpg)
+
+# spacers definitions
+sdef symbol:@ width:25
+sdef symbol:* width:20
